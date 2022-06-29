@@ -93,7 +93,7 @@ public class Main {
         persona = personas.searchPersona(nombre);
         if (persona != null)
             System.out.println(persona);
-        else System.out.println("No existe la persona buscada");
+            else System.out.println("No existe la persona buscada");
     }
 
 }
